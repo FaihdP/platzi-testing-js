@@ -25,7 +25,6 @@ describe('Test for Book Services', () => {
     test('should return a list of books', async () => {
       const fakeBooks = generateManyBooks(5);
       mongoLibInstance.getAll.mockResolvedValue(fakeBooks);
-      console.log(fakeBooks);
       // AAA - Act
       const books = await service.getBooks({});
       // AAA - Assert

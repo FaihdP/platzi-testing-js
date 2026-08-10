@@ -30,3 +30,7 @@ jobs:
       - name: Run unit tests
         shell: bash
         run: npm test
+
+      - name: Run e2e tests
+        shell: bash
+        run: npm test:e2e
