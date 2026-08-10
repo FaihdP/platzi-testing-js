@@ -31,10 +31,6 @@ jobs:
         shell: bash
         run: npm run test
 
-      - name: Run e2e tests
-        shell: bash
-        run: npm run test:e2e
-
   e2e:
     runs-on: ubuntu-latest
     container:
