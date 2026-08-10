@@ -62,4 +62,4 @@ jobs:
         run: npm run test:e2e
         env:
           MONGO_DB_NAME: "demo"
-          MONGO_URI: "mongodb://test:test123@mongo-e2e:27017/demo?authSource=admin"
+          MONGO_URL: "mongodb://test:test123@mongo-e2e:27017/demo?authSource=admin"
