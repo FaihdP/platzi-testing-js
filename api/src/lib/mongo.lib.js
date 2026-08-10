@@ -6,7 +6,7 @@ const MONGO_URI = config.dbUrl;
 
 class MongoLib {
   constructor() {
-    this.client = new MongoClient(MONGO_URI, {
+    this.client = new MongoClient(MONGO_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
